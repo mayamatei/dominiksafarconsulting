@@ -1,0 +1,354 @@
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  
+  header img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin between the logo and the heading */
+    
+  }
+  
+  header {
+    background-color: #6B51EF;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust the desired margin on the right side */
+  }
+  
+  .logo img {
+    width: 10px; /* Adjust the desired width of the logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 5px; /* Adjust the desired spacing between menu items */
+    margin-right: 50px; /* Adjust the desired margin on the right side */
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    padding: 100 10px; /* Adjust the desired padding */
+  }
+  
+  nav a:hover {
+    color: #61F9FF;
+  }
+  
+  
+  
+  
+  .profile-section .profile-image img {
+    width: 365px;
+    height: 365px;
+    border-radius: 100%;
+    float: left; /* Float the image to the left */
+    margin-right: 130px; /* Add right margin for spacing */
+  }
+
+  .profile-section .profile-description p {
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 20px; /* Adjust the desired font size */
+    line-height: 1.5; /* Adjust the desired line height */
+  }
+
+  .profile-description {
+    flex: 1; /* Allow the paragraph to take up remaining space */
+  }
+  
+  .profile-description p {
+    margin: 0; /* Remove default margin for the paragraph */
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 15px 200px 15px 200px;
+    text-align: justify;
+    
+}
+
+  
+  
+
+  
+
+
+
+
+
+  .paragraph-section {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: #fff;
+  }
+  
+  .paragraph-section p {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 20px; /* Adjust the desired font size */
+    line-height: 1.5; /* Adjust the desired line height */
+  }
+
+  
+  
+  
+  
+  
+  
+  .background-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+    
+      }
+   
+      .background-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+    
+      }
+
+  .background-section h2,
+  .background-section p,
+  .background-section h3,
+  .background-section .button {
+    margin-bottom: 10px; /* Add spacing between elements */
+  }
+  
+  
+  .background-section h2{
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 28px; /* Adjust the desired font size */
+    line-height: 1.5; /* Adjust the desired line height */
+  }
+
+  .background-section h3{
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 23px; /* Adjust the desired font size */
+    line-height: 1.5; /* Adjust the desired line height */
+  }
+
+  .background-section p{
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 20px; /* Adjust the desired font size */
+    line-height: 1.5; /* Adjust the desired line height */
+  }
+
+  .background-section h2{
+    color: #61F9FF;
+    
+      }
+
+      .background-section h3{
+        color: #61F9FF;
+        
+          }
+  
+  h1 {
+    margin: 10;
+  }
+
+
+  .background-section .button {
+    background-color: #AC9BFF; /* Adjust the desired background color */
+    color: #ffffff; /* Adjust the desired text color */
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 23px; /* Adjust the desired font size */
+    border-radius: 30px; /* Adjust the desired border radius */
+    padding: 12px 60px; /* Adjust the desired padding */
+    text-decoration: none; /* Remove underline */
+    
+  }
+  
+  .background-section .button :hover{
+    background-color: #61F9FF; /* Adjust the desired hover background color */
+  }
+  
+
+  
+  
+  
+  
+  
+  .content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px; /* Adjust the desired spacing between sections */
+    padding: 70px 10px;
+  }
+  
+  .left-content {
+    flex: 1;
+  }
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align the content to the right */
+    align-items: center;
+  }
+  
+ 
+  
+  .buttons {
+    margin-top: 50px; /* Adjust the desired spacing between header and buttons */
+  }
+  
+  .button {
+    background-color: #AC9BFF;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    border-radius: 30px;
+    padding: 12px 60px;
+    text-decoration: none;
+    margin-right: 20px; /* Adjust the desired spacing between buttons */
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+  
+
+
+  .video-section {
+    background-color: #6B51EF;
+    padding: 140px 20px;
+    text-align: center;
+
+    
+  }
+  
+  .video-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio (e.g., 9/16 = 0.5625) */
+    
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+
+
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-text {
+    margin: 0;
+    margin-right: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    width: 210px;
+    height: auto;
+  }
+  
+  foote
+  
+  footer {
+    background-color: #6B51EF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+  }
+  footer {
+    background-color: #6B51EF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  footer p {
+    margin-right: 60px; /* Add margin on the top and bottom of the <p> element */
+  }
+ 
+  .service-section .icon-image img {
+    width: 365px;
+    height: auto;
+    float: left; /* Float the image to the left */
+    margin-right: 170px; /* Add right margin for spacing */
+  }
+
+  .service-section .service-description p {
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 20px; /* Adjust the desired font size */
+    line-height: 1.5; /* Adjust the desired line height */
+  }
+
+  .service-description {
+    flex: 1; /* Allow the paragraph to take up remaining space */
+  }
+  
+  .service-description p {
+    margin: 0; /* Remove default margin for the paragraph */
+    font-family: Arial, Helvetica, sans-serif; /* Adjust the desired font family */
+    font-size: 20px; /* Adjust the desired font size */
+    margin-left: 50px;
+  }
+  
